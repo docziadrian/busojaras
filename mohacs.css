@@ -1,0 +1,123 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+  background-size: 70px 70px;
+  background-repeat: repeat-y;
+  background-position: right top;
+  padding: 15px 95px 15px 15px;
+  font-family: sans-serif !important;
+  background-color: #720000;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#cimkep{
+  float:left;  
+}
+
+#erdekesseg{
+  width:450px;
+  float:right;
+  margin: 0px 0px 20px 15px;
+  background-color: #ffffcc;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg)
+}
+
+h1{
+  font-size:30pt;
+  color:#720000;
+
+}
+
+.jobbra{
+  text-align: right;
+  float:right;
+  border-style:dashed;
+  margin:15px;
+}
+
+
+.keret{
+  font-size: 90%;
+  padding: 7px;
+  font-weight: normal;
+  color:#720000;
+}
+
+li{
+  font-weight:bold;
+  list-style-image: url('./jel.png');
+  color:#720000;
+}
+
+
+header{
+  margin-top: 0px;
+  background-color: white;
+  text-align: center;
+  padding: 5px 5px;
+  border-bottom: 4px dashed rgb(133, 21, 21);
+  border-left: 3px dashed rgb(133, 21, 21);
+  border-right: 3px dashed rgb(133, 21, 21);
+  border-top: 3px dashed rgb(133, 21, 21);
+}
+
+h2{
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+p{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.buso{
+  height: 20em;
+  width: 20em;
+  border: 2px dashed white;
+  margin-top: 2cm;
+}
+
+.busojaras{
+  width: 20em;
+  height: 17em;
+  border: 2px solid rgba(244, 245, 190, 0.589);
+}
+
+footer{
+  width: 95%;
+  background-color: white;
+  border: 2px dashed black;
+  position: absolute;
+}
+
+#osszefoglalo{
+  color:#720000;
+  padding: 20px;
+}
+
+.busojaras{
+  transform: rotate(10deg);
+  margin-top: -6cm;
+  position: relative;
+}
+
+.w-50{
+  width: 75%;
+  
+}
+
+main{
+  text-align: justify;
+}
